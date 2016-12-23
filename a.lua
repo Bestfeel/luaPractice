@@ -17,7 +17,7 @@ do
         io.write(">>")
         a = io.read()
         if (a == "quit") then
-            print("break..")
+            print("quit..")
             break
         end
         num = tonumber(a)

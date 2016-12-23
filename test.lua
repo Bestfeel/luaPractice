@@ -1,13 +1,3 @@
---
--- Created by IntelliJ IDEA.
--- User: feel
--- Date: 16/3/21
--- Time: 下午11:37
--- To change this template use File | Settings | File Templates.
---
-
-
-
 print("aaa")
 
 if 10 > 3 then
