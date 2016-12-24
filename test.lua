@@ -1,4 +1,4 @@
-print("aaa")
+print("\a") -- bell
 
 if 10 > 3 then
     print("yes")
