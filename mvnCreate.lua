@@ -1,3 +1,5 @@
+#!/usr/bin/env lua
+
 --[[
  mvn 创建项目
 说明：archetypeArtifactId（项目骨架的类型）
