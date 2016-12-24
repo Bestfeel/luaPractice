@@ -25,7 +25,7 @@ mavenTable = {
     'maven-archetype-webapp'
 }
 function usage()
-    print("脚本自动化创建maven项目")
+    print("创建maven项目的脚手架")
     print("==================================")
     for k, v in ipairs(mavenTable) do
         print(k .. ")" .. v)
@@ -42,13 +42,15 @@ artifact = io.read()
 io.write("请输入项目类型编号:")
 id = io.read("*number")
 
+
 mvnCommand = "mvn archetype:generate  " .. "-DgroupId=" .. group .. "  -DartifactId=" .. artifact .. "   -Dversion=1.0" .. "   -DarchetypeArtifactId=" .. mavenTable[id] .. "  -DarchetypeCatalog=local"
-print("请确认信息,enter确认")
+print("==================================")
+print("请确认信息,(enter)确认")
+print("==================================")
 print("组织名称:" .. group)
 print("项目名称:" .. artifact)
 print("项目类型:" .. mavenTable[id])
 print("版本号version:1.0")
-
 local mvnCreate = io.popen(mvnCommand)
 local result = mvnCreate:read("*all")
 print(result)

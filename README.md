@@ -29,7 +29,7 @@ break..
 lua  mvnCreate.lua 
 
 ```
-脚本自动化创建maven项目
+创建maven项目的脚手架
 ==================================
 1)maven-archetype-archetype
 2)maven-archetype-j2ee-simple
@@ -43,11 +43,13 @@ lua  mvnCreate.lua
 10)maven-archetype-webapp
 ==================================
 请输入组织名称:com.gizwits
-请输入项目名称:hello
+请输入项目名称:helloWorld
 请输入项目类型编号:6
-请确认信息,enter确认
+==================================
+请确认信息,(enter)确认
+==================================
 组织名称:com.gizwits
-项目名称:hello
+项目名称:helloWorld
 项目类型:maven-archetype-quickstart
 版本号version:1.0
 
